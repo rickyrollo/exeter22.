@@ -1,0 +1,27 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    color: #d0d8a2;
+    background-color: #302f28;
+    margin: 0;
+    padding: 0;
+}
+
+.header, .footer {
+    color: #d0d8a2;
+    text-align: center;
+    padding: 1rem;
+    padding-top: 2rem;
+    font-family: 'Bodoni', serif;
+}
+
+.main {
+    text-align: center;
+}
+
+.main img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50px;
+}
