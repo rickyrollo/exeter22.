@@ -1,7 +1,7 @@
 body {
-    font-family: 'Verdana', sans-serif;
+    font-family: 'Verdana', sans-serif; /* Change this to your desired sans-serif font */
     color: #d0d8a2;
-    background-color: #302f28;
+    background-color: #302f28; /* Change this to your desired background color */
     margin: 0;
     padding: 0;
 }
@@ -10,8 +10,8 @@ body {
     color: #d0d8a2;
     text-align: center;
     padding: 1rem;
-    padding-top: 2rem;
-    font-family: 'Bodoni', serif;
+    padding-top: 1rem; /* Add this line to move the title text down */
+    font-family: 'Bodoni Moda', serif; /* Change this to your desired serif font */
 }
 
 .main {
@@ -23,5 +23,5 @@ body {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 50px;
+    border-radius: 0px; /* Change this to your desired border radius */
 }
