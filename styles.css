@@ -27,7 +27,7 @@ body {
     width: 640px;
     padding-top: 1rem; /* Add this line to move the title text down */
     font-family: 'Times New Roman', serif; /* Change this to your desired serif font */
-    font-size: 0.8rem; /* Adjust this value as needed */
+    font-size: 0.1rem; /* Adjust this value as needed */
     margin: 0 auto;
     border-top: 1px solid #5b606c; /* Add this line to create a line between the body text and the footer text */
 }
