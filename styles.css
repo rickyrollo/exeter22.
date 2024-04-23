@@ -14,7 +14,7 @@ body {
     padding-top: 6rem;
     display: block;
     max-width: 100%;
-    width: 670px; /* Adjust this value as needed */
+    width: 530px; /* Adjust this value as needed */
     margin: 0 auto 0.5rem; /* Add this line to center the title */
     border-bottom: 1px solid #5b606c; /* Add this line to create a line between the title text and the image */
     line-height: 1;
@@ -24,8 +24,8 @@ body {
     color: #5b606c;
     text-align: center;
     padding: 1rem;
-    width: 640px;
-    padding-top: 1rem; /* Add this line to move the title text down */
+    width: 500px;
+    padding-top: 0.1rem; /* Add this line to move the title text down */
     font-family: 'Times New Roman', serif; /* Change this to your desired serif font */
     font-size: 0.8rem; /* Adjust this value as needed */
     margin: 0 auto;
