@@ -1,17 +1,35 @@
+
 body {
-    font-family: 'Verdana', sans-serif; /* Change this to your desired sans-serif font */
-    color: #d0d8a2;
-    background-color: #302f28; /* Change this to your desired background color */
+    font-family: 'Times New Roman', serif; /* Change this to your desired serif font */
+    color: #5b606c;
+    background-color: #d2d1d1; /* Change this to your desired background color */
     margin: 0;
     padding: 0;
 }
 
-.header, .footer {
-    color: #d0d8a2;
+.header img {
+    color: #5b606c;
+    text-align: center;
+    padding: 0;
+    padding-top: 6rem;
+    display: block;
+    max-width: 100%;
+    width: 670px; /* Adjust this value as needed */
+    margin: 0 auto 0.5rem; /* Add this line to center the title */
+    border-bottom: 1px solid #5b606c; /* Add this line to create a line between the title text and the image */
+    line-height: 1;
+}
+
+.footer {
+    color: #5b606c;
     text-align: center;
     padding: 1rem;
+    width: 670px;
     padding-top: 1rem; /* Add this line to move the title text down */
-    font-family: 'Bodoni Moda', serif; /* Change this to your desired serif font */
+    font-family: 'Times New Roman', serif; /* Change this to your desired serif font */
+    font-size: 0.8rem; /* Adjust this value as needed */
+    margin: 0 auto;
+    border-top: 1px solid #5b606c; /* Add this line to create a line between the body text and the footer text */
 }
 
 .main {
@@ -19,7 +37,7 @@ body {
 }
 
 .main img {
-    max-width: 100%;
+    max-width: 35%;
     height: auto;
     display: block;
     margin: 0 auto;
