@@ -1,45 +1,53 @@
-
+/* General styles */
 body {
-    font-family: 'Times New Roman', serif; /* Change this to your desired serif font */
-    color: #5b606c;
-    background-color: #d2d1d1; /* Change this to your desired background color */
+    font-family: 'Cormorant Garamond', serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Header styles */
+.header {
+    padding: 20px 0;
+    text-align: center; /* Center the image horizontally */
 }
 
 .header img {
-    color: #5b606c;
-    text-align: center;
-    padding: 0;
-    padding-top: 6rem;
-    display: block;
-    max-width: 100%;
-    width: 530px; /* Adjust this value as needed */
-    margin: 0 auto 0.5rem; /* Add this line to center the title */
-    border-bottom: 1px solid #5b606c; /* Add this line to create a line between the title text and the image */
-    line-height: 1;
-}
-
-.footer {
-    color: #5b606c;
-    text-align: center;
-    padding: 1rem;
-    width: 500px;
-    padding-top: 0.1rem; /* Add this line to move the title text down */
-    font-family: 'Times New Roman', serif; /* Change this to your desired serif font */
-    font-size: 0.8rem; /* Adjust this value as needed */
-    margin: 0 auto;
-    border-top: 1px solid #5b606c; /* Add this line to create a line between the body text and the footer text */
-}
-
-.main {
-    text-align: center;
-}
-
-.main img {
-    max-width: 35%;
+    width: 100%;
+    max-width: 600px;
     height: auto;
     display: block;
-    margin: 0 auto;
-    border-radius: 0px; /* Change this to your desired border radius */
+    margin: 0 auto; /* Center the image */
+}
+
+/* Main content styles */
+.main img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    display: block;
+    margin: 20px auto; /* Center the image and add margin */
+}
+
+.main p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+/* Footer styles */
+.footer p {
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main img {
+        max-width: 100%;
+    }
 }
