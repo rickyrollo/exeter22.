@@ -20,14 +20,14 @@ body {
 
 header .logo {
     width: 550px; /* Adjusted width to be proportional with the image */
-    margin: 10px auto 10px;
+    margin: 10px auto 5px; /* Reduced bottom margin to bring the image closer */
 }
 
 .subtle-line {
-    width: 400px; /* Same width as the logo */
+    width: 400px; /* Matches the width of the image */
     height: 2px;
     background-color: #000; /* Solid black line */
-    margin: 10px auto;
+    margin: 5px auto 15px; /* Adjusted margins for a balanced look */
     border-bottom: 1px solid #d6d6d6; /* Adds a subtle shadow effect */
 }
 
@@ -35,7 +35,7 @@ header .logo {
     width: 400px; /* Adjusted image width to match the logo */
     height: auto;
     display: block;
-    margin: 0 auto 20px;
+    margin: 0 auto 20px; /* Reduced margin to bring the image closer to the logo */
 }
 
 footer {
