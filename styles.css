@@ -1,34 +1,47 @@
 body {
     margin: 0;
     padding: 0;
-    background: #d6d6d6; /* Matches Rollo Capital's background color */
+    background: #D6D6D6; /* Same background color as Rollo Capital */
     font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ensures full-screen height without scrolling */
     text-align: center;
 }
 
 .container {
-    width: 900px;
-    margin: 0 auto;
+    width: 632px; /* Matches the width of the image */
+    padding: 20px;
+    background: #FFFFF0; /* Light yellow background, resembling a post-it note */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header .logo {
-    width: 630px; /* Matches Rollo Capital's logo width */
-    margin: 60px auto 20px;
+    width: 100%; /* Logo is as wide as the image */
+    margin-bottom: 10px;
 }
 
 .main-image {
-    width: 632px; /* Matches Rollo Capital's main image width */
-    height: 345px;
-    display: block;
-    margin: 0 auto 40px;
+    width: 100%; /* The image width matches the container */
+    margin-bottom: 40px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid black;
+    margin: 10px 0;
 }
 
 footer {
-    margin-top: 100px;
     font-size: 14px;
 }
 
 footer a {
     color: inherit;
     text-decoration: none;
+}
+
+footer p {
+    margin: 5px 0;
 }
