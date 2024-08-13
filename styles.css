@@ -23,11 +23,12 @@ header .logo {
     margin: 60px auto 10px;
 }
 
-.fancy-line {
+.subtle-line {
     width: 400px; /* Same width as the logo */
     height: 2px;
-    background-image: linear-gradient(to right, transparent, black, transparent); /* Fancy line effect */
+    background-color: #000; /* Solid black line */
     margin: 10px auto;
+    border-bottom: 1px solid #d6d6d6; /* Adds a subtle shadow effect */
 }
 
 .main-image {
