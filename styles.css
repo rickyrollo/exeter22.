@@ -19,8 +19,8 @@ body {
 }
 
 header .logo {
-    width: 500px; /* Adjusted width to be proportional with the image */
-    margin: 60px auto 10px;
+    width: 550px; /* Adjusted width to be proportional with the image */
+    margin: 10px auto 10px;
 }
 
 .subtle-line {
