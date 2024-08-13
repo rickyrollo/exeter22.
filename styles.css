@@ -22,15 +22,16 @@ body {
 header .logo {
     width: 100%;
     max-width: 550px; /* Adjusted width to be proportional with the image */
-    margin: 10px auto 5px; /* Adjust these values to change spacing above and below the logo */
+    margin: 20px auto 20px; /* Adjusted to match Rollo Capital's spacing */
 }
 
-.simple-line {
+.subtle-line {
     width: 100%;
-    max-width: 400px; /* Matches the width of the image */
-    height: 1px;
-    background-color: black; /* Simple black line */
-    margin: 10px auto; /* Adjust this to change spacing around the line */
+    max-width: 550px; /* Same width as the logo */
+    height: 2px;
+    background-color: #000;
+    margin: 20px auto; /* Spacing around the line */
+    border-bottom: 1px solid #d6d6d6; /* Subtle shadow effect */
 }
 
 .main-image {
@@ -38,7 +39,7 @@ header .logo {
     max-width: 400px; /* Adjusted image width to match the logo */
     height: auto;
     display: block;
-    margin: 0px auto; /* Adjust this to change spacing above and below the image */
+    margin: 20px auto; /* Adjusted to match Rollo Capital's spacing */
 }
 
 footer {
@@ -61,7 +62,7 @@ footer a {
         width: 100%;
     }
 
-    .simple-line {
+    .subtle-line {
         max-width: 300px;
     }
 
@@ -75,7 +76,7 @@ footer a {
 }
 
 @media (max-width: 480px) {
-    .simple-line {
+    .subtle-line {
         max-width: 250px;
     }
 
