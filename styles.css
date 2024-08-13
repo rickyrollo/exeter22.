@@ -20,8 +20,9 @@ body {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; /* Ensures spacing between elements */
     align-items: center;
+    padding: 20px 0;
 }
 
 .logo-container {
@@ -59,7 +60,8 @@ footer {
     text-align: center;
     font-size: 14px;
     color: black;
-    margin-bottom: 200px; /* Bring the footer up */
+    margin-top: auto; /* Automatically push the footer down */
+    padding-top: 20px; /* Padding to add space above the footer */
 }
 
 footer a {
@@ -98,6 +100,6 @@ footer a {
     }
 
     footer {
-        margin-bottom: 30px; /* Adjust footer spacing on smaller screens */
+        padding-top: 15px; /* Adjust footer spacing on smaller screens */
     }
 }
