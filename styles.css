@@ -35,7 +35,7 @@ header .logo {
     width: 400px; /* Adjusted image width to match the logo */
     height: auto;
     display: block;
-    margin: 0 auto 40px;
+    margin: 0 auto 20px;
 }
 
 footer {
