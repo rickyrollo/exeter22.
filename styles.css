@@ -27,7 +27,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 2000;
+    width: 4000;
     height: 100%; /* Adjust this percentage to zoom the image in or out */
 }
 
