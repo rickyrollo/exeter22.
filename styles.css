@@ -27,9 +27,11 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 40000;
-    height: 100%; /* Adjust this percentage to zoom the image in or out */
+    width: 100%; /* Image fills the container width */
+    height: 100%; /* Image fills the container height */
+    object-fit: cover; /* The image will cover the container, potentially cropping */
 }
+
 
 .center-logo {
     z-index: 1;
