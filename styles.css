@@ -21,8 +21,8 @@ body {
 
 header .logo {
     width: 100%;
-    max-width: 550px; /* Adjusted width to be proportional with the image */
-    margin: 20px auto 20px; /* Adjusted to match Rollo Capital's spacing */
+    max-width: 400px; /* Adjusted width to be proportional with the image */
+    margin: 30px auto 30px; /* Adjusted to match Rollo Capital's spacing */
 }
 
 .subtle-line {
