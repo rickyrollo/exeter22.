@@ -28,7 +28,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     width: auto;
-    height: 80%; /* Adjust this percentage to zoom the image in or out */
+    height: 100%; /* Adjust this percentage to zoom the image in or out */
 }
 
 .center-logo {
