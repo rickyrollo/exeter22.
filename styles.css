@@ -13,38 +13,41 @@ body {
     align-items: center;
 }
 
-.container {
-    width: 90%;
-    max-width: 900px;
+.content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.logo-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px; /* Set a maximum width for both the logo and image */
     margin: 0 auto;
 }
 
-header .logo {
-    width: 100%;
-    max-width: 400px; /* Adjusted width to be proportional with the image */
-    margin: 30px auto 30px; /* Adjusted to match Rollo Capital's spacing */
-    padding: 10;
-}
-
-.subtle-line {
-    width: 100%;
-    max-width: 550px; /* Same width as the logo */
-    height: 2px;
-    background-color: #000;
-    margin: 20px auto; /* Spacing around the line */
-    border-bottom: 1px solid #d6d6d6; /* Subtle shadow effect */
-}
-
-.main-image {
-    width: 100%;
-    max-width: 400px; /* Adjusted image width to match the logo */
+.center-logo,
+.background-image {
+    width: 100%; /* Make the logo and background image the same width */
     height: auto;
     display: block;
-    margin: 20px auto; /* Adjusted to match Rollo Capital's spacing */
+    margin: 0 auto;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1; /* Place the background image behind the logo */
 }
 
 footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
     font-size: 14px;
+    color: white; /* Adjust color for contrast */
 }
 
 footer a {
@@ -54,38 +57,13 @@ footer a {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    body {
-        height: auto;
-        padding: 20px;
-    }
-
-    .container {
-        width: 100%;
-    }
-
-    .subtle-line {
-        max-width: 300px;
-    }
-
-    .main-image {
-        max-width: 300px;
-    }
-
-    header .logo {
+    .logo-container {
         max-width: 300px;
     }
 }
 
 @media (max-width: 480px) {
-    .subtle-line {
-        max-width: 250px;
-    }
-
-    .main-image {
-        max-width: 250px;
-    }
-
-    header .logo {
+    .logo-container {
         max-width: 250px;
     }
 }
