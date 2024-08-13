@@ -51,8 +51,8 @@ footer {
     width: 100%;
     text-align: center;
     font-size: 14px;
-    color: white;
-    margin-bottom: 100px; /* Bring the footer up */
+    color: black;
+    margin-bottom: 200px; /* Bring the footer up */
 }
 
 footer a {
