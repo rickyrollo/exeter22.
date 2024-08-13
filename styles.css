@@ -6,36 +6,39 @@ body {
     background: #d6d6d6; /* Matches Rollo Capital's background color */
     font-family: 'Georgia', serif; /* Same font as Rollo Capital */
     text-align: center;
-    height: 100vh; /* Ensure no scrolling */
+    height: 100vh; /* Ensure no scrolling on larger screens */
     overflow: hidden; /* Disable scrolling */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
-    width: 900px;
+    width: 90%;
+    max-width: 900px;
     margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
 }
 
 header .logo {
-    width: 550px; /* Adjusted width to be proportional with the image */
-    margin: 10px auto 5px; /* Reduced bottom margin to bring the image closer */
+    width: 100%;
+    max-width: 550px; /* Adjusted width to be proportional with the image */
+    margin: 10px auto 5px; /* Adjust these values to change spacing above and below the logo */
 }
 
-.subtle-line {
-    width: 400px; /* Matches the width of the image */
-    height: 2px;
-    background-color: #000; /* Solid black line */
-    margin: 5px auto 15px; /* Adjusted margins for a balanced look */
-    border-bottom: 1px solid #d6d6d6; /* Adds a subtle shadow effect */
+.simple-line {
+    width: 100%;
+    max-width: 400px; /* Matches the width of the image */
+    height: 1px;
+    background-color: black; /* Simple black line */
+    margin: 10px auto; /* Adjust this to change spacing around the line */
 }
 
 .main-image {
-    width: 400px; /* Adjusted image width to match the logo */
+    width: 100%;
+    max-width: 400px; /* Adjusted image width to match the logo */
     height: auto;
     display: block;
-    margin: 0 auto 20px; /* Reduced margin to bring the image closer to the logo */
+    margin: 20px auto; /* Adjust this to change spacing above and below the image */
 }
 
 footer {
@@ -45,4 +48,42 @@ footer {
 footer a {
     color: inherit;
     text-decoration: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        height: auto;
+        padding: 20px;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .simple-line {
+        max-width: 300px;
+    }
+
+    .main-image {
+        max-width: 300px;
+    }
+
+    header .logo {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .simple-line {
+        max-width: 250px;
+    }
+
+    .main-image {
+        max-width: 250px;
+    }
+
+    header .logo {
+        max-width: 250px;
+    }
 }
