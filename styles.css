@@ -6,52 +6,40 @@ body {
     box-sizing: border-box;
 }
 
-header, main, footer {
-    padding: 20px;
+#body_content, header, main, footer {
     text-align: center;
 }
 
 /* Header styles */
-.header {
-    padding: 20px 0;
-    text-align: center; /* Center the image horizontally */
-    overflow: hidden; /* Ensure the image is cropped */
-    height: 150px; /* Adjust the height as needed */
-}
-
 .header img {
     width: 100%;
     max-width: 600px;
-    height: 100%;
-    object-fit: cover; /* Crop the image to fit the container */
-    object-position: center; /* Center the image within the container */
-    display: block;
-    margin: 0 auto; /* Center the image */
+    object-fit: cover;
+    object-position: center;
 }
 
 /* Main content styles */
-.main img {
+#body_layer img {
     width: 100%;
     max-width: 800px;
-    height: auto;
     display: block;
-    margin: 20px auto; /* Center the image and add margin */
+    margin: 20px auto;
 }
 
-.main p {
+#body_layer p {
     font-size: 1.2em;
     margin: 20px 0;
 }
 
 /* Footer styles */
-.footer p {
+footer p {
     font-size: 0.9em;
     margin: 5px 0;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-    .main img {
+    #body_layer img {
         max-width: 100%;
     }
 }
