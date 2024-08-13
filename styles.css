@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Georgia:wght@400;700&display=swap');
+
 body {
     margin: 0;
     padding: 0;
     background: #d6d6d6; /* Matches Rollo Capital's background color */
-    font-family: Arial, sans-serif;
+    font-family: 'Georgia', serif; /* Same font as Rollo Capital */
     text-align: center;
     height: 100vh; /* Ensure no scrolling */
     overflow: hidden; /* Disable scrolling */
@@ -21,10 +23,10 @@ header .logo {
     margin: 60px auto 10px;
 }
 
-.line {
+.fancy-line {
     width: 400px; /* Same width as the logo */
-    height: 1px;
-    background-color: black;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, black, transparent); /* Fancy line effect */
     margin: 10px auto;
 }
 
