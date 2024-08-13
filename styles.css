@@ -13,20 +13,13 @@ body {
 .container {
     width: 632px; /* Matches the width of the image */
     padding: 20px;
-    background: #f9f9f9; /* Subtle background to make content stand out */
+    background: #FFFFF0; /* Light yellow background, resembling a post-it note */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 header .logo {
     width: 100%; /* Logo is as wide as the image */
     margin-bottom: 10px;
-}
-
-header .logo img {
-    display: block;
-    width: 100%;
-    height: auto;
-    background: none; /* Removes any background around the logo */
 }
 
 .main-image {
@@ -38,7 +31,6 @@ header .logo img {
     border: none;
     border-top: 1px solid black;
     margin: 10px 0;
-    width: 100%; /* The line matches the width of the container */
 }
 
 footer {
