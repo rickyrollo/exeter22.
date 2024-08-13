@@ -43,7 +43,7 @@ body {
 .logo-line {
     width: 100%;
     border-top: 1px solid black; /* Black line like Rollo Capital */
-    margin-bottom: 20px; /* Spacing between the line and the background image */
+    margin-bottom: 15px; /* Slightly reduce spacing between the line and the background image */
 }
 
 .background-image {
@@ -51,7 +51,7 @@ body {
     max-width: 550px;
     height: auto;
     display: block;
-    margin: 0 auto 20px; /* Space between the image and the contact section */
+    margin: 0 auto 10px; /* Reduce space between the image and the contact section */
 }
 
 footer {
@@ -60,7 +60,7 @@ footer {
     text-align: center;
     font-size: 14px;
     color: black;
-    padding-top: 20px; /* Padding to add space above the footer */
+    padding-top: 15px; /* Reduce padding to bring the contact section up */
 }
 
 footer a {
@@ -99,6 +99,6 @@ footer a {
     }
 
     footer {
-        padding-top: 15px; /* Adjust footer spacing on smaller screens */
+        padding-top: 10px; /* Adjust footer spacing on smaller screens */
     }
 }
