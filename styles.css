@@ -24,10 +24,10 @@ body {
 
 .background-image {
     position: absolute;
-    top: 50%;
+    top: 30%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 100%; /* Image fills the container width */
+    width: 90%; /* Image fills the container width */
     height: 100%; /* Image fills the container height */
     object-fit: cover; /* The image will cover the container, potentially cropping */
 }
