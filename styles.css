@@ -1,35 +1,38 @@
 body {
     margin: 0;
     padding: 0;
-    background: #D6D6D6; /* Same background color as Rollo Capital */
+    background: #d6d6d6; /* Matches Rollo Capital's background color */
     font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Ensures full-screen height without scrolling */
     text-align: center;
+    height: 100vh; /* Ensure no scrolling */
+    overflow: hidden; /* Disable scrolling */
 }
 
 .container {
-    width: 632px; /* Matches the width of the image */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 900px;
+    margin: 0 auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 header .logo {
-    width: 100%; /* Logo is as wide as the image */
-    margin-bottom: 10px;
+    width: 400px; /* Adjusted width to be proportional with the image */
+    margin: 60px auto 10px;
+}
+
+.line {
+    width: 400px; /* Same width as the logo */
+    height: 1px;
+    background-color: black;
+    margin: 10px auto;
 }
 
 .main-image {
-    width: 100%; /* The image width matches the container */
-    margin-bottom: 40px;
-}
-
-.divider {
-    border: none;
-    border-top: 1px solid black;
-    margin: 10px 0;
+    width: 400px; /* Adjusted image width to match the logo */
+    height: auto;
+    display: block;
+    margin: 0 auto 40px;
 }
 
 footer {
@@ -39,8 +42,4 @@ footer {
 footer a {
     color: inherit;
     text-decoration: none;
-}
-
-footer p {
-    margin: 5px 0;
 }
