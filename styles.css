@@ -10,36 +10,38 @@ body {
     text-align: center;
 }
 
-/* Header styles */
-.header img {
+/* Header logo styles */
+.header_logo img {
     width: 100%;
-    max-width: 600px;
+    max-width: 630px;
+    height: 50px;
     object-fit: cover;
-    object-position: center;
+    display: block;
+    margin: 0 auto;
 }
 
-/* Main content styles */
-#body_layer img {
+/* Main content image styles */
+.main_image img {
     width: 100%;
-    max-width: 800px;
+    max-width: 632px;
+    height: auto;
     display: block;
     margin: 20px auto;
-}
-
-#body_layer p {
-    font-size: 1.2em;
-    margin: 20px 0;
 }
 
 /* Footer styles */
 footer p {
     font-size: 0.9em;
     margin: 5px 0;
+    text-align: center;
 }
 
 /* Responsive design */
 @media (max-width: 768px) {
-    #body_layer img {
+    .main_image img {
+        max-width: 100%;
+    }
+    .header_logo img {
         max-width: 100%;
     }
 }
