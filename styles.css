@@ -22,7 +22,7 @@ body {
 header .logo {
     width: 100%;
     max-width: 400px; /* Adjusted width to be proportional with the image */
-    margin: 20px auto 20px; /* Adjusted to match Rollo Capital's spacing */
+    margin: 10px auto 10px; /* Adjusted to match Rollo Capital's spacing */
 }
 
 .subtle-line {
@@ -30,7 +30,7 @@ header .logo {
     max-width: 400px; /* Same width as the logo */
     height: 2px;
     background-color: #2F4F4F;
-    margin: 20px auto; /* Spacing around the line */
+    margin: 10px auto; /* Spacing around the line */
     border-bottom: 1px solid #d6d6d6; /* Subtle shadow effect */
 }
 
