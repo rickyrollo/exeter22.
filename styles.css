@@ -38,7 +38,7 @@ header .logo {
     max-width: 400px; /* Adjusted image width to match the logo */
     height: auto;
     display: block;
-    margin: 20px auto; /* Adjust this to change spacing above and below the image */
+    margin: 0px auto; /* Adjust this to change spacing above and below the image */
 }
 
 footer {
