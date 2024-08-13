@@ -24,12 +24,12 @@ body {
 
 .background-image {
     position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%; /* Image fills the container width */
-    height: 100%; /* Image fills the container height */
-    object-fit: cover; /* The image will cover the container, potentially cropping */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Stretch the image to the full width of the viewport */
+    height: 100vh; /* Stretch the image to the full height of the viewport */
+    object-fit: fill; /* Stretches the image to fill the container, disregarding aspect ratio */
+    z-index: -1; /* Ensure it stays in the background */
 }
 
 
