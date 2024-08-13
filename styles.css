@@ -6,26 +6,12 @@ body {
     font-family: 'Georgia', serif;
     height: 100vh;
     overflow: hidden;
+    background: url('https://i.postimg.cc/L6M1kgws/large-transformed.jpg') no-repeat center center fixed;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000; /* Fallback color while the image loads */
-}
-
-.background {
-    position: relative;
-    width: 100%;
-    height: 100%;
-}
-
-.background-image {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: -1; /* Send image to the background */
+    color: white;
 }
 
 .content {
@@ -34,21 +20,22 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    color: white;
+    width: 100%;
+    text-align: center;
 }
 
 .center-logo {
     max-width: 50%;
     height: auto;
-    margin-bottom: auto; /* Align the logo towards the center */
+    margin-bottom: auto;
 }
 
 footer {
     position: absolute;
     bottom: 10px;
     right: 10px;
-    text-align: right;
     font-size: 14px;
+    text-align: right;
 }
 
 footer a {
