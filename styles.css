@@ -22,14 +22,14 @@ body {
     flex-direction: column;
     justify-content: flex-start; /* Align items at the top */
     align-items: center;
-    padding: 20px 0;
+    padding: 10px 0; /* Reduced padding to move content higher */
 }
 
 .logo-container {
     position: relative;
     width: 100%;
-    max-width: 550px; /* Set a maximum width for both the logo and image */
-    margin-top: 100px; /* Adjust this value to position the logo as per Rollo Capital's site */
+    max-width: 550px;
+    margin-top: 50px; /* Reduced margin-top to move logo higher */
 }
 
 .center-logo {
@@ -60,27 +60,27 @@ footer {
     text-align: center;
     font-size: 14px;
     color: black;
-    padding-top: 15px; /* Reduce padding to bring the contact section up */
+    padding-top: 10px; /* Reduced padding-top to move footer higher */
 }
 
 footer a {
     color: inherit;
     text-decoration: none;
     display: block;
-    margin-bottom: 10px; /* Space between contact and line */
+    margin-bottom: 5px; /* Reduced space between contact and line */
 }
 
 .footer-line {
     width: 100%;
     border-top: 1px solid black; /* Black line like Rollo Capital */
-    margin-bottom: 10px; /* Space between the line and the copyright text */
+    margin-bottom: 5px; /* Reduced space between the line and the copyright text */
 }
 
 /* Responsive Design */
 @media (max-width: 768px) {
     .logo-container {
         max-width: 400px;
-        margin-top: 80px; /* Adjust for smaller screens */
+        margin-top: 40px; /* Adjust for smaller screens */
     }
 
     .center-logo, .background-image, footer {
@@ -91,7 +91,7 @@ footer a {
 @media (max-width: 480px) {
     .logo-container {
         max-width: 300px;
-        margin-top: 60px; /* Adjust for smaller screens */
+        margin-top: 30px; /* Adjust for smaller screens */
     }
 
     .center-logo, .background-image, footer {
@@ -99,6 +99,6 @@ footer a {
     }
 
     footer {
-        padding-top: 10px; /* Adjust footer spacing on smaller screens */
+        padding-top: 5px; /* Adjust footer spacing on smaller screens */
     }
 }
